@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact Me</title>
+</head>
+<body style="background-color: black;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutMe.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="images/k11.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Madda Naga Venkata Karthikeya</h1>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form action="submit_contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+                <p>Feel free to reach out to me through the following contact methods:<br>
+                    <br>
+                    Email: mnvkarthikeya@gmail.com<br>
+                    Phone: 7794097919<br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/mnvkarthikeya">LinkedIn Profile</a>
+                    
+                </p>
+                
+                <footer>
+                    <p>&copy; 2023 Made with <span class="heart">&hearts;</span>
+                        <br>
+                            Madda Naga Venkata Karthikeya
+                        <br>
+                            Ethical Hacker
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+</html>

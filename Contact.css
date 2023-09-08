@@ -1,0 +1,189 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.5)), url('images/eth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-photo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+/* Style the contact section */
+/* Style the contact form */
+.contact-form {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f00;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the social media links */
+.social-media-links {
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Style the contact information */
+.contact-info {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #f00; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Style the social media links and images */
+.contact-info a img {
+    width: 32px; /* Adjust the width as needed */
+    height: 32px; /* Adjust the height as needed */
+    margin: 5px; /* Add margin between the icons */
+}
+
+/* Rest of your existing CSS styles */
+/* ... */
+
+
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    font-size: 14px;
+}
+
+.heart {
+    color: red;
+}
+
